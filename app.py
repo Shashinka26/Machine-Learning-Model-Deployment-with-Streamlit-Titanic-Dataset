@@ -9,7 +9,7 @@ from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 
 @st.cache_data
 def load_data():
-    return pd.read_csv('data/Titanic-Dataset.csv')
+    return pd.read_csv('Data/Titanic-Dataset.csv')
 
 @st.cache_resource
 def load_model():
